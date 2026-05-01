@@ -15,20 +15,8 @@ __pycache__/
 !.vscode/settings.json
 !.vscode/extensions.json
 
-# --- Environment metadata outputs ---
-# Keep env/README.md and scripts, but ignore generated metadata files by default.
-# Users can commit env outputs if a project requires it.
-env/*.txt
-env/*.log
-
-# --- Outputs (generated artifacts) ---
-!outputs/README.md
-
 # --- Common GIS / OS clutter ---
 .DS_Store
 Thumbs.db
 
-# --- Optional: File geodatabases (often huge) ---
-# If your team frequently generates GDBs as outputs, keep this enabled.
-# If you need to commit a small sample GDB for a demo, remove this line for that repo.
-*.gdb/
+

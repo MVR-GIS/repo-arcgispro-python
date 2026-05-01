@@ -91,7 +91,7 @@ When prompted to select a kernel:
 - `scripts/` — runnable workflows / entry points
 - `src/` — reusable functions/modules
 - `data/` — project data (use judgment; avoid huge files)
-- `outputs/` — generated outputs (ignored by default)
+- `outputs/` — generated outputs (use judgment; avoid committing huge/binary artifacts)
 - `env/` — environment metadata capture
 
 ## Capture environment metadata (recommended)
