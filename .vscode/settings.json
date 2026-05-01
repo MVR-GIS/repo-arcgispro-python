@@ -1,0 +1,24 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "ArcGIS Pro Python (proenv)": {
+      "path": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/k",
+        "\"C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\proenv.bat\""
+      ]
+    },
+    "ArcGIS Pro Python + Repo Env (.conda-arcgis)": {
+      "path": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/k",
+        "\"C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\Scripts\\proenv.bat\" && conda activate .conda-arcgis"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "ArcGIS Pro Python + Repo Env (.conda-arcgis)",
+
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "editor.rulers": [88],
+  "editor.formatOnSave": false
+}
